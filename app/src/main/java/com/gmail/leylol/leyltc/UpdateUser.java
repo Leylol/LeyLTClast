@@ -10,10 +10,6 @@ import com.squareup.okhttp.Request;
 import com.squareup.okhttp.RequestBody;
 import com.squareup.okhttp.Response;
 
-import java.io.IOException;
-
-import okio.BufferedSink;
-
 /**
  * Created by User on 14-Dec-16.
  */

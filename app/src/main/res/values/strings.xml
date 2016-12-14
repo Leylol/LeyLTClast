@@ -1,7 +1,22 @@
 <resources>
     <string name="app_name">LeyLTC</string>
 
-
-
     <string name="SignUp">SignUp</string>
+
+
+
+    //Explicit
+    <string name="title_have_space">Have Space</string>
+
+    <string name="message_have_space">Please fill all every blank</string>
+
+    <string name="title_user_false">User false</string>
+
+    <string name="message_user_false">No This User in my Database</string>
+
+    <string name="title_message_false">Password False</string>
+
+    <string name="message_password_false">Please Try Again. Password False.</string>
+
+
 </resources>

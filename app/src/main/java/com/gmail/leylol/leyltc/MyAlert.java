@@ -25,18 +25,13 @@ public class MyAlert {
         this.anInt = anInt;
     }
 
-
     public void MyDialog() {
-
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setCancelable(false);
         builder.setIcon(anInt);
         builder.setTitle(TitleStrint);
         builder.setMessage(messageStrint);
-
-
-
 
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
