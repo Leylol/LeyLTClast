@@ -34,6 +34,10 @@ public class MyAlert {
         builder.setIcon(anInt);
         builder.setTitle(TitleStrint);
         builder.setMessage(messageStrint);
+
+
+
+
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
