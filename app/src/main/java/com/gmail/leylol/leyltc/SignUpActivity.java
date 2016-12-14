@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class SignUpActivity extends AppCompatActivity {
 
     //Explicit
@@ -38,7 +39,18 @@ public class SignUpActivity extends AppCompatActivity {
 
             //Have Space
             Log.d("13DecV1","Have Space!");
+
+
+            MyAlert myAlert = new MyAlert(SignUpActivity.this, "Have Space!", "Please Fill All Blank !", R.drawable.doremon48);
+
+            myAlert.MyDialog();
+
+
         }
+
+
+
+
 
     }   //Click Sign
 
